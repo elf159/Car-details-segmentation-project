@@ -1,0 +1,682 @@
+{
+  "id": "64b6ac951423d2cb1a60625a",
+  "datasetId": "64a6a4e751cafe51b2ff91a2",
+  "url": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+  "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+  "createdAt": "2023-07-18T15:15:33.816Z",
+  "dir": "/",
+  "filename": "/1200x900n - 2023-03-03T191403.713.jfif",
+  "type": "file",
+  "hidden": false,
+  "metadata": {
+    "system": {
+      "originalname": "1200x900n - 2023-03-03T191403.713.jfif",
+      "size": 110812,
+      "encoding": "7bit",
+      "taskStatusLog": [],
+      "mimetype": "image/jpeg",
+      "refs": [],
+      "isBinary": true,
+      "channels": 3,
+      "exif": {},
+      "height": 900,
+      "thumbnailId": "64b6ac96c390dd536e3bf9bf",
+      "width": 900
+    }
+  },
+  "name": "1200x900n - 2023-03-03T191403.713.jfif",
+  "creator": "andrew.avramencko2014@gmail.com",
+  "updatedAt": "2023-07-18T15:15:34.568Z",
+  "updatedBy": "pipelines@dataloop.ai",
+  "stream": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a/stream",
+  "thumbnail": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a/thumbnail",
+  "annotations": [
+    {
+      "id": "64b6ae4857687f1c7c92fc68",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6ae4857687f1c7c92fc68",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Крупные детали.Дверь задняя левая",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 899.7845018728929,
+            "y": 851.0346745066278,
+            "z": 0
+          },
+          {
+            "x": 900,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 890.5058389036416,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "x": 835.4806242955754,
+            "y": 199.957914036288,
+            "z": 0
+          },
+          {
+            "x": 756.2490608520948,
+            "y": 203.40276462078714,
+            "z": 0
+          },
+          {
+            "x": 697.6866009156095,
+            "y": 415.8352173315682,
+            "z": 0
+          },
+          {
+            "x": 608.1204857186315,
+            "y": 731.6131875773237,
+            "z": 0
+          },
+          {
+            "x": 601.2307845496332,
+            "y": 809.6964674926378,
+            "z": 0
+          },
+          {
+            "x": 585.1548151553038,
+            "y": 851.0346745066277,
+            "z": 0
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "1071f1c7-720b-42fb-8fa7-e4297f977ed8",
+          "automated": false,
+          "objectId": "2",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:22:48.202Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:22:48.202Z",
+      "hash": "0d6eb0eaf1d1ed9060dc173986a378516942e380",
+      "source": "ui"
+    },
+    {
+      "id": "64b6ae4857687f61bc92fc69",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6ae4857687f61bc92fc69",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Крупные детали.Дверь передняя левая",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 739.0248079295993,
+            "y": 0.15658013533720805,
+            "z": 0
+          },
+          {
+            "x": 673.5726468241154,
+            "y": 205.69933167711997,
+            "z": 0
+          },
+          {
+            "x": 753.9524937957623,
+            "y": 204.55104814895356,
+            "z": 0
+          },
+          {
+            "x": 699.9831679719422,
+            "y": 402.0558149935715,
+            "z": 0
+          },
+          {
+            "x": 646.0138421481222,
+            "y": 582.3363289156939,
+            "z": 0
+          },
+          {
+            "x": 608.1204857186315,
+            "y": 722.4269193519928,
+            "z": 0
+          },
+          {
+            "x": 598.9342174933004,
+            "y": 807.3999004363051,
+            "z": 0
+          },
+          {
+            "x": 582.8582480989711,
+            "y": 851.0346745066277,
+            "z": 0
+          },
+          {
+            "x": 0.6784993186143993,
+            "y": 852.1829580347941,
+            "z": 0
+          },
+          {
+            "x": 0,
+            "y": 3.4482758620689538,
+            "z": 0
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "c99ffea9-6cc2-494b-8afd-c16746c682e5",
+          "automated": false,
+          "objectId": "1",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:22:48.205Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:22:48.205Z",
+      "hash": "21e959189155397dcc6ae512730d16175d7d60cf",
+      "source": "ui"
+    },
+    {
+      "id": "64b6af9783eb1d9069a379cd",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6af9783eb1d9069a379cd",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Мелкие детали.Ручка двери",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 390.6984400944312,
+            "y": 445.0123427311434
+          },
+          {
+            "x": 414.3386525503064,
+            "y": 448.23600806603554
+          },
+          {
+            "x": 513.1977228203297,
+            "y": 451.45967340092756
+          },
+          {
+            "x": 549.7325966157731,
+            "y": 446.0868978427741
+          },
+          {
+            "x": 555.1053721739265,
+            "y": 439.63956717299
+          },
+          {
+            "x": 624.9514544299215,
+            "y": 440.71412228462066
+          },
+          {
+            "x": 632.4733402113361,
+            "y": 452.5342285125583
+          },
+          {
+            "x": 633.547895322967,
+            "y": 469.7271102986493
+          },
+          {
+            "x": 620.6532339833985,
+            "y": 480.4726614149561
+          },
+          {
+            "x": 594.863911304262,
+            "y": 487.99454719637095
+          },
+          {
+            "x": 495.95965249567615,
+            "y": 489.8103633208549
+          },
+          {
+            "x": 463.65157996510317,
+            "y": 489.0588917096111
+          },
+          {
+            "x": 411.0570432874261,
+            "y": 484.55006204214806
+          },
+          {
+            "x": 379.50032128081995,
+            "y": 481.54417559717274
+          },
+          {
+            "x": 370.48411499321816,
+            "y": 474.0294594847344
+          },
+          {
+            "x": 367.4787128973509,
+            "y": 465.01180014980844
+          },
+          {
+            "x": 368.2300634213177,
+            "y": 454.49119759239477
+          },
+          {
+            "x": 378.7489707568531,
+            "y": 447.72795309120033
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "c5af50d9-9d2f-4fba-9466-0a0281a6afbf",
+          "automated": false,
+          "objectId": "3",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.68.1-prod.0",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:28:23.401Z",
+      "updatedBy": "ksaskanova@yandex.ru",
+      "updatedAt": "2023-09-20T16:33:09.628Z",
+      "hash": "fdbdd8d1321ad917409c950cff0218a0ac2a7431",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd82e63bb8ae0a",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd82e63bb8ae0a",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Мелкие детали.Молдинг стекла двери передней левой наружный",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 0.6349345724912535,
+            "y": 226.87765507011363
+          },
+          {
+            "x": 750.6744024907119,
+            "y": 201.08833239097711
+          },
+          {
+            "x": 749.5998473790812,
+            "y": 216.13210395380673
+          },
+          {
+            "x": 742.0779615976663,
+            "y": 232.25043062826705
+          },
+          {
+            "x": 0,
+            "y": 254.81608797251153
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "4c2e3440-e411-4a05-b2c4-3ab160b6f917",
+          "automated": false,
+          "objectId": "4",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.907Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.907Z",
+      "hash": "3d805d81f1ba2b9e92969f35edca8babc1b0d1a7",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd820b83b8ae0b",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd820b83b8ae0b",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Мелкие детали.Молдинг стекла двери задней левой наружный",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 757.121733160496,
+            "y": 204.31199772586916
+          },
+          {
+            "x": 748.5252922674505,
+            "y": 231.1758755166364
+          },
+          {
+            "x": 896.8138976724855,
+            "y": 224.72854484685226
+          },
+          {
+            "x": 896.8138976724855,
+            "y": 200.01377727934639
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "5d59e5ac-b744-4a44-82d4-ef43a6d54fe9",
+          "automated": false,
+          "objectId": "5",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.912Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.912Z",
+      "hash": "43d9971328294c94c3beba22ee4fc5bedd5bc71e",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd820f9cb8ae0c",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd820f9cb8ae0c",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Средние детали.Накладка центральной стойки левая наружная",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 738.8542962627744,
+            "y": 1.2210816276690082,
+            "z": 0
+          },
+          {
+            "x": 677.6046548998249,
+            "y": 198.9392221677157,
+            "z": 0
+          },
+          {
+            "x": 833.415146086275,
+            "y": 196.79011194445437,
+            "z": 0
+          },
+          {
+            "x": 889.2920118910707,
+            "y": 0,
+            "z": 0
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "9c283b0a-200f-4102-a85d-b6993f37d957",
+          "automated": false,
+          "objectId": "6",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.914Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.914Z",
+      "hash": "bf3fb9c90403544345b24fcd3675a56752e7c6fe",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd8233edb8ae0d",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd8233edb8ae0d",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Средние детали.Накладка на порог левый",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 0.6349345724912535,
+            "y": 852.2687300391743
+          },
+          {
+            "x": 898.963007895747,
+            "y": 851.1941749275437
+          },
+          {
+            "x": 897.8884527841162,
+            "y": 885.5799384997257
+          },
+          {
+            "x": 0.6349345724912535,
+            "y": 882.3562731648336
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "a4c739c7-6d39-4272-bf89-259e8be22598",
+          "automated": false,
+          "objectId": "8",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.917Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.917Z",
+      "hash": "c32850a3b9392f53200ab46b0ecc840e7f501e68",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd827fbbb8ae0f",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd827fbbb8ae0f",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Средние детали.Стекло двери задней левой",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 899.9133167895042,
+            "y": 117.31177044941067
+          },
+          {
+            "x": 877.693650119107,
+            "y": 192.02556357271706
+          },
+          {
+            "x": 897.9975619036425,
+            "y": 191.5659612897112
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "95747187-89c7-41f3-b896-540aacdb8cf8",
+          "automated": false,
+          "objectId": "9",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.922Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.922Z",
+      "hash": "f91ca8723af7117fe55e08243438fc10fbc22f7c",
+      "source": "ui"
+    },
+    {
+      "id": "64b6b0bdefcd824a2ab8ae0e",
+      "datasetId": "64a6a4e751cafe51b2ff91a2",
+      "itemId": "64b6ac951423d2cb1a60625a",
+      "url": "https://gate.dataloop.ai/api/v1/annotations/64b6b0bdefcd824a2ab8ae0e",
+      "item": "https://gate.dataloop.ai/api/v1/items/64b6ac951423d2cb1a60625a",
+      "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+      "type": "segment",
+      "label": "Средние детали.Стекло двери передней левой",
+      "attributes": [],
+      "coordinates": [
+        [
+          {
+            "x": 692.6484264626548,
+            "y": 1.2210816276690135
+          },
+          {
+            "x": 630.3242299880748,
+            "y": 200.01377727934639
+          },
+          {
+            "x": 0,
+            "y": 222.5806451612903
+          },
+          {
+            "x": 0.6349345724912535,
+            "y": 1.2210816276690135
+          }
+        ]
+      ],
+      "metadata": {
+        "system": {
+          "startTime": 0,
+          "endTime": 0,
+          "frame": 0,
+          "endFrame": 0,
+          "snapshots_": [],
+          "clientId": "aec5ed94-a1a6-4a1b-b1ac-73c3ffef1d11",
+          "automated": false,
+          "objectId": "7",
+          "isOpen": false,
+          "isOnlyLocal": false,
+          "attributes": {},
+          "system": false,
+          "itemLinks": [],
+          "openAnnotationVersion": "1.64.0-prod.20",
+          "recipeId": "64a6a4e7f75d91227fe7b7fd",
+          "coordinateVersion": "v1"
+        },
+        "user": {}
+      },
+      "creator": "andrew.avramencko2014@gmail.com",
+      "createdAt": "2023-07-18T15:33:17.920Z",
+      "updatedBy": "andrew.avramencko2014@gmail.com",
+      "updatedAt": "2023-07-18T15:33:17.920Z",
+      "hash": "2b3f09e6c579fdbe85b424ca2a39da6d7be70d10",
+      "source": "ui"
+    }
+  ],
+  "annotationsCount": 9,
+  "annotated": true
+}

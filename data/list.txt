@@ -1,0 +1,35 @@
+Существует несколько наборов данных, в которых представлены
+размеченные сегменты автомобилей разного вида:
+
+- набор с платформы Kaggle из соревнования «Car Segmentation»: 211
+изображений неповрежденных легковых автомобилей и масок, но всего 5
+классов сегментов;
+- набор из работы, опубликованный на платформе GitHub: 500
+изображений неповрежденных автомобилей (легковые, внедорожники и
+грузовые) в разном ракурсе, 18 классов масок;
+- набор «Car Dataset», опубликованный на платформе Roboflow: 2156
+изображений неповрежденных автомобилей в разных ракурсах, 14 классов
+масок;
+- набор «Clone Car Parts Dataset», опубликованный на платформе
+Roboflow: 2178 изображений неповрежденных автомобилей в разных ракурсах,
+8 классов масок (похоже, что это клон предыдущего набора);
+- набор «Сar-damage-coco-dataset Image Dataset» опубликованный на
+платформе Roboflow: 1700 изображений автомобилей с повреждениями, маски
+повреждений (без привязки к деталям), и предобученная модель;
+- наборы «Minor-damage_dataset» и «major-damage_dataset»,
+опубликованные на платформе Roboflow: порядка 500 изображений и масок
+слабых и сильных повреждений;
+- набор «Car Parts and Car Damages Dataset», опубликованный на
+платформе Human-in-the-loop: порядка 2000 изображений поврежденных и
+неповрежденных автомобилей, с масками деталей (21 тип) и повреждений (8
+типов);
+- и другие.
+
+https://www.kaggle.com/datasets/intelecai/car-segmentation/data
+https://github.com/dsmlr/Car-Parts-Segmentation
+https://universe.roboflow.com/car-segmentation/car-o22yh
+https://universe.roboflow.com/car-segmentation/clone-car-parts-dataset
+https://universe.roboflow.com/dan-vmm5z/car-damage-coco-dataset/dataset/9
+https://universe.roboflow.com/dan-vmm5z/minor-damage
+https://universe.roboflow.com/dan-vmm5z/major-damage
+https://humansintheloop.org/resources/datasets/car-parts-and-car-damages-dataset/

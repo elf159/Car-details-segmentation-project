@@ -1,0 +1,1028 @@
+{
+    "id": "64b13e9eaa7667c06f24ec00",
+    "datasetId": "64a6a4e751cafe51b2ff91a2",
+    "url": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+    "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+    "createdAt": "2023-07-14T12:25:02.647Z",
+    "dir": "/",
+    "filename": "/photo_18_2023-07-14_15-24-20.jpg",
+    "type": "file",
+    "hidden": false,
+    "metadata": {
+        "system": {
+            "originalname": "photo_18_2023-07-14_15-24-20.jpg",
+            "size": 73580,
+            "encoding": "7bit",
+            "taskStatusLog": [],
+            "mimetype": "image/jpeg",
+            "refs": [],
+            "isBinary": true,
+            "channels": 3,
+            "exif": {},
+            "height": 900,
+            "thumbnailId": "64b13ea12b43ac3dee5f037f",
+            "width": 675
+        }
+    },
+    "name": "photo_18_2023-07-14_15-24-20.jpg",
+    "creator": "andrew.avramencko2014@gmail.com",
+    "updatedAt": "2023-07-14T12:25:05.155Z",
+    "updatedBy": "pipelines@dataloop.ai",
+    "stream": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00/stream",
+    "thumbnail": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00/thumbnail",
+    "annotations": [
+        {
+            "id": "64b67f69891b6a59794e617a",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b67f69891b6a59794e617a",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Средние детали.Фара передняя левая",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 43.403557035219855,
+                        "y": 441.02391116955226,
+                        "z": 0
+                    },
+                    {
+                        "x": 78.38552200351738,
+                        "y": 408.6471557860731,
+                        "z": 0
+                    },
+                    {
+                        "x": 148.34945194011246,
+                        "y": 357.0193566610661,
+                        "z": 0
+                    },
+                    {
+                        "x": 229.97403686614007,
+                        "y": 358.7694515466596,
+                        "z": 0
+                    },
+                    {
+                        "x": 406.0499272065711,
+                        "y": 370.14506830301707,
+                        "z": 0
+                    },
+                    {
+                        "x": 641.5951579931078,
+                        "y": 389.3961120445451,
+                        "z": 0
+                    },
+                    {
+                        "x": 720.8876119212489,
+                        "y": 392.02125437293523,
+                        "z": 0
+                    },
+                    {
+                        "x": 887.6349782701338,
+                        "y": 402.5218236864961,
+                        "z": 0
+                    },
+                    {
+                        "x": 935.4436637268071,
+                        "y": 408.6471557860731,
+                        "z": 0
+                    },
+                    {
+                        "x": 961.0971047035587,
+                        "y": 420.0227725424307,
+                        "z": 0
+                    },
+                    {
+                        "x": 976.2559561898208,
+                        "y": 435.7736265127718,
+                        "z": 0
+                    },
+                    {
+                        "x": 980.9202181855939,
+                        "y": 452.39952792590975,
+                        "z": 0
+                    },
+                    {
+                        "x": 970.4256286951045,
+                        "y": 469.90047678184425,
+                        "z": 0
+                    },
+                    {
+                        "x": 867.8118647880987,
+                        "y": 559.1553159471107,
+                        "z": 0
+                    },
+                    {
+                        "x": 743.0428564011708,
+                        "y": 648.4101551123773,
+                        "z": 0
+                    },
+                    {
+                        "x": 724.3858084180787,
+                        "y": 650.1602499979707,
+                        "z": 0
+                    },
+                    {
+                        "x": 640.4290924941645,
+                        "y": 644.9099653411904,
+                        "z": 0
+                    },
+                    {
+                        "x": 472.51566064633636,
+                        "y": 625.6589215996623,
+                        "z": 0
+                    },
+                    {
+                        "x": 318.5950147858271,
+                        "y": 601.1575932013538,
+                        "z": 0
+                    },
+                    {
+                        "x": 184.49748240735326,
+                        "y": 567.9057903750781,
+                        "z": 0
+                    },
+                    {
+                        "x": 109.86929047498523,
+                        "y": 535.5290349915991,
+                        "z": 0
+                    },
+                    {
+                        "x": 79.55158750246063,
+                        "y": 507.52751682210356,
+                        "z": 0
+                    },
+                    {
+                        "x": 56.23027752359561,
+                        "y": 480.4010460954051,
+                        "z": 0
+                    },
+                    {
+                        "x": 43.403557035219855,
+                        "y": 455.0246702542999,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "99894b2e-20ae-43bb-baf9-23b16dd9bbf4",
+                    "automated": false,
+                    "objectId": "1",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:02:49.867Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:02:49.867Z",
+            "hash": "45543097092ac8ad82994f952b0e39870ccd22ab",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e6510374cad5e774",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e6510374cad5e774",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Крупные детали.Крыло переднее левое",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 751.2053148937736,
+                        "y": 650.7713109135834,
+                        "z": 0
+                    },
+                    {
+                        "x": 821.1692448303686,
+                        "y": 652.521405799177,
+                        "z": 0
+                    },
+                    {
+                        "x": 910.956288248999,
+                        "y": 654.2715006847703,
+                        "z": 0
+                    },
+                    {
+                        "x": 972.7577596929914,
+                        "y": 661.2718802271442,
+                        "z": 0
+                    },
+                    {
+                        "x": 1024.0,
+                        "y": 669.1473072123147,
+                        "z": 0
+                    },
+                    {
+                        "x": 1022.8985761475511,
+                        "y": 284.1264323817535,
+                        "z": 0
+                    },
+                    {
+                        "x": 712.7251534286462,
+                        "y": 357.6304175766789,
+                        "z": 0
+                    },
+                    {
+                        "x": 648.9213073643948,
+                        "y": 382.1464689184364,
+                        "z": 0
+                    },
+                    {
+                        "x": 655.4035443692719,
+                        "y": 386.8995174352557,
+                        "z": 0
+                    },
+                    {
+                        "x": 688.6997456455141,
+                        "y": 388.70196326768735,
+                        "z": 0
+                    },
+                    {
+                        "x": 887.1983907599407,
+                        "y": 400.718086826556,
+                        "z": 0
+                    },
+                    {
+                        "x": 934.7188172280225,
+                        "y": 406.84341892613315,
+                        "z": 0
+                    },
+                    {
+                        "x": 962.747430421684,
+                        "y": 418.6491979321643,
+                        "z": 0
+                    },
+                    {
+                        "x": 982.9003002813472,
+                        "y": 439.5525257545917,
+                        "z": 0
+                    },
+                    {
+                        "x": 982.2763602308818,
+                        "y": 453.5061448097572,
+                        "z": 0
+                    },
+                    {
+                        "x": 976.7832576280273,
+                        "y": 466.097381452576,
+                        "z": 0
+                    },
+                    {
+                        "x": 948.2703842151831,
+                        "y": 494.13781865296886,
+                        "z": 0
+                    },
+                    {
+                        "x": 879.4725197775313,
+                        "y": 551.890949877553,
+                        "z": 0
+                    },
+                    {
+                        "x": 786.1872798620709,
+                        "y": 617.5195080873078,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "fd00dd9a-4b99-4d5b-b3eb-209b9385be74",
+                    "automated": false,
+                    "objectId": "3",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.244Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:10:20.973Z",
+            "hash": "4301a06a15287b9b6a6188698286819d016d119b",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e6510314cad5e776",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e6510314cad5e776",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Крупные детали.Бампер передний",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 1.425199073262823,
+                        "y": 502.2772321653233,
+                        "z": 0
+                    },
+                    {
+                        "x": 99.37470098449589,
+                        "y": 533.7789401060055,
+                        "z": 0
+                    },
+                    {
+                        "x": 146.017320942226,
+                        "y": 555.6551261759239,
+                        "z": 0
+                    },
+                    {
+                        "x": 192.659940899956,
+                        "y": 571.405980146265,
+                        "z": 0
+                    },
+                    {
+                        "x": 276.61665682387013,
+                        "y": 593.2821662161832,
+                        "z": 0
+                    },
+                    {
+                        "x": 385.06074822559253,
+                        "y": 615.1583522861015,
+                        "z": 0
+                    },
+                    {
+                        "x": 519.1582806040664,
+                        "y": 632.6593011420362,
+                        "z": 0
+                    },
+                    {
+                        "x": 600.782865530094,
+                        "y": 642.2848230128002,
+                        "z": 0
+                    },
+                    {
+                        "x": 720.8876119212489,
+                        "y": 653.6604397691576,
+                        "z": 0
+                    },
+                    {
+                        "x": 754.7035113906031,
+                        "y": 652.7853923263609,
+                        "z": 0
+                    },
+                    {
+                        "x": 861.9815372933823,
+                        "y": 654.5354872119543,
+                        "z": 0
+                    },
+                    {
+                        "x": 918.111553572686,
+                        "y": 656.5230517189683,
+                        "z": 0
+                    },
+                    {
+                        "x": 1000.7489683003192,
+                        "y": 666.2677504449151,
+                        "z": 0
+                    },
+                    {
+                        "x": 1022.7411835100922,
+                        "y": 670.2655755632522,
+                        "z": 0
+                    },
+                    {
+                        "x": 1023.4076142740249,
+                        "y": 851.9585724334653,
+                        "z": 0
+                    },
+                    {
+                        "x": 995.4175221888589,
+                        "y": 875.6956590735917,
+                        "z": 0
+                    },
+                    {
+                        "x": 940.4369841644253,
+                        "y": 936.4920396393816,
+                        "z": 0
+                    },
+                    {
+                        "x": 919.444415100551,
+                        "y": 961.2285825590924,
+                        "z": 0
+                    },
+                    {
+                        "x": 881.7910769383633,
+                        "y": 1023.4447359632134,
+                        "z": 0
+                    },
+                    {
+                        "x": 270.34085103027235,
+                        "y": 1023.6946000331096,
+                        "z": 0
+                    },
+                    {
+                        "x": 252.01400502212792,
+                        "y": 1022.4452796836293,
+                        "z": 0
+                    },
+                    {
+                        "x": 121.0603599093869,
+                        "y": 981.7174362905699,
+                        "z": 0
+                    },
+                    {
+                        "x": 41.421883619450185,
+                        "y": 948.7353790642888,
+                        "z": 0
+                    },
+                    {
+                        "x": 7.100699276925254,
+                        "y": 932.4942145210443,
+                        "z": 0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 927.7402468051685,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "30afe4ff-27bd-4ad4-9d9e-d1b96f07924e",
+                    "automated": false,
+                    "objectId": "5",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.248Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:09:40.248Z",
+            "hash": "88ff563cf5f510a1a390c54f5dda5a9da79bc936",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e6510354d7d5e773",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e6510354d7d5e773",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Крупные детали.Капот",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 2.591264572206074,
+                        "y": 254.63880585384857,
+                        "z": 0
+                    },
+                    {
+                        "x": 56.23027752359561,
+                        "y": 311.51688963563606,
+                        "z": 0
+                    },
+                    {
+                        "x": 92.24609667378775,
+                        "y": 337.78303586298716,
+                        "z": 0
+                    },
+                    {
+                        "x": 142.51912444539627,
+                        "y": 348.26888223309874,
+                        "z": 0
+                    },
+                    {
+                        "x": 213.6491198809345,
+                        "y": 354.39421433267586,
+                        "z": 0
+                    },
+                    {
+                        "x": 355.9091107520112,
+                        "y": 363.14468876064313,
+                        "z": 0
+                    },
+                    {
+                        "x": 620.6059790121293,
+                        "y": 385.8959222733583,
+                        "z": 0
+                    },
+                    {
+                        "x": 640.4290924941646,
+                        "y": 384.1458273877647,
+                        "z": 0
+                    },
+                    {
+                        "x": 715.0572844265326,
+                        "y": 356.14430921826926,
+                        "z": 0
+                    },
+                    {
+                        "x": 833.9959653187443,
+                        "y": 326.3926961631805,
+                        "z": 0
+                    },
+                    {
+                        "x": 1021.7325106486079,
+                        "y": 283.51537146614066,
+                        "z": 0
+                    },
+                    {
+                        "x": 1024.0,
+                        "y": 0.0,
+                        "z": 0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "65458b93-82ce-41e4-ac40-e6a83f300397",
+                    "automated": false,
+                    "objectId": "2",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.240Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:09:40.240Z",
+            "hash": "61f0372f9ff2e333f548ece98526e6f6fa445d84",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e651031b24d5e775",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e651031b24d5e775",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Средние детали.Решетка переднего бампера под ПТФ левая",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 0.0,
+                        "y": 885.5480121102913,
+                        "z": 0
+                    },
+                    {
+                        "x": 45.7356880331064,
+                        "y": 908.2992456230062,
+                        "z": 0
+                    },
+                    {
+                        "x": 101.70683198238248,
+                        "y": 928.425336807331,
+                        "z": 0
+                    },
+                    {
+                        "x": 196.15813739678583,
+                        "y": 955.5518075340296,
+                        "z": 0
+                    },
+                    {
+                        "x": 372.23402773721676,
+                        "y": 997.5540847882727,
+                        "z": 0
+                    },
+                    {
+                        "x": 438.6997611769821,
+                        "y": 1011.5548438730204,
+                        "z": 0
+                    },
+                    {
+                        "x": 465.51926765267683,
+                        "y": 1013.3049387586138,
+                        "z": 0
+                    },
+                    {
+                        "x": 500.5012326209745,
+                        "y": 1004.5544643306464,
+                        "z": 0
+                    },
+                    {
+                        "x": 536.6492630882152,
+                        "y": 969.5525666187773,
+                        "z": 0
+                    },
+                    {
+                        "x": 578.6276210501723,
+                        "y": 890.7982967670717,
+                        "z": 0
+                    },
+                    {
+                        "x": 578.6276210501723,
+                        "y": 878.5476325679173,
+                        "z": 0
+                    },
+                    {
+                        "x": 572.7972935554561,
+                        "y": 875.0474427967305,
+                        "z": 0
+                    },
+                    {
+                        "x": 451.52648166535784,
+                        "y": 852.2962092840154,
+                        "z": 0
+                    },
+                    {
+                        "x": 208.9848578851616,
+                        "y": 803.2935524873986,
+                        "z": 0
+                    },
+                    {
+                        "x": 70.22306351091471,
+                        "y": 760.4162277903588,
+                        "z": 0
+                    },
+                    {
+                        "x": 0.2591335743196153,
+                        "y": 733.2897570636601,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "73482900-e46f-4fa1-9fa8-b75128798f99",
+                    "automated": false,
+                    "objectId": "6",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.246Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:09:40.246Z",
+            "hash": "3375c1ac64fe7f237f06472a753ca4a1049f52c4",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e651031d1bd5e777",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e651031d1bd5e777",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Средние детали.Решетка радиатора",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 1.4251990732628554,
+                        "y": 498.77704239413634,
+                        "z": 0
+                    },
+                    {
+                        "x": 90.04617699294995,
+                        "y": 524.1534182352416,
+                        "z": 0
+                    },
+                    {
+                        "x": 57.462201152782974,
+                        "y": 483.48140967345023,
+                        "z": 0
+                    },
+                    {
+                        "x": 42.67614726317211,
+                        "y": 457.0827569550567,
+                        "z": 0
+                    },
+                    {
+                        "x": 40.91590275250415,
+                        "y": 442.03552490557234,
+                        "z": 0
+                    },
+                    {
+                        "x": 57.462201152782974,
+                        "y": 424.34842758424867,
+                        "z": 0
+                    },
+                    {
+                        "x": 83.16177100853518,
+                        "y": 402.1735593007981,
+                        "z": 0
+                    },
+                    {
+                        "x": 146.53057339258172,
+                        "y": 357.559836206713,
+                        "z": 0
+                    },
+                    {
+                        "x": 148.99491570751687,
+                        "y": 352.5440921902182,
+                        "z": 0
+                    },
+                    {
+                        "x": 91.96299356187497,
+                        "y": 339.0623744680707,
+                        "z": 0
+                    },
+                    {
+                        "x": 53.23761432717988,
+                        "y": 311.0798025865735,
+                        "z": 0
+                    },
+                    {
+                        "x": 0.0,
+                        "y": 254.85067229639526,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "adc5387b-11da-4252-b2f3-b68a9b1c7bad",
+                    "automated": false,
+                    "objectId": "4",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.250Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:09:40.250Z",
+            "hash": "79bcf4af81671048c140615c1566a62c9fd0ab73",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e651035225d5e778",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e651035225d5e778",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Крупные детали.Колесо",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 883.3823361823361,
+                        "y": 1024.0,
+                        "z": 0
+                    },
+                    {
+                        "x": 905.1259607542827,
+                        "y": 982.6782782607282,
+                        "z": 0
+                    },
+                    {
+                        "x": 935.4436637268071,
+                        "y": 943.3011433348753,
+                        "z": 0
+                    },
+                    {
+                        "x": 982.0862836845372,
+                        "y": 889.0482018814781,
+                        "z": 0
+                    },
+                    {
+                        "x": 1022.8985761475509,
+                        "y": 857.5464939407958,
+                        "z": 0
+                    },
+                    {
+                        "x": 1024.0,
+                        "y": 1024.0,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "cbe6a8c0-da7a-4d2a-88bd-0461acde2085",
+                    "automated": false,
+                    "objectId": "7",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.68.1-prod.0",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.252Z",
+            "updatedBy": "ksaskanova@yandex.ru",
+            "updatedAt": "2023-09-20T13:19:40.124Z",
+            "hash": "49e874d6864317c3ff021fe76bec35379112b902",
+            "source": "ui"
+        },
+        {
+            "id": "64b68104e651036e51d5e779",
+            "datasetId": "64a6a4e751cafe51b2ff91a2",
+            "itemId": "64b13e9eaa7667c06f24ec00",
+            "url": "https://gate.dataloop.ai/api/v1/annotations/64b68104e651036e51d5e779",
+            "item": "https://gate.dataloop.ai/api/v1/items/64b13e9eaa7667c06f24ec00",
+            "dataset": "https://gate.dataloop.ai/api/v1/datasets/64a6a4e751cafe51b2ff91a2",
+            "type": "segment",
+            "label": "Мелкие детали.ПТФ левый",
+            "attributes": [],
+            "coordinates": [
+                [
+                    {
+                        "x": 99.35190945197606,
+                        "y": 839.3912296969088,
+                        "z": 0
+                    },
+                    {
+                        "x": 161.17617242848826,
+                        "y": 860.171636269186,
+                        "z": 0
+                    },
+                    {
+                        "x": 322.0932112826569,
+                        "y": 904.7990558518194,
+                        "z": 0
+                    },
+                    {
+                        "x": 355.9091107520112,
+                        "y": 909.174293065803,
+                        "z": 0
+                    },
+                    {
+                        "x": 392.05714121925195,
+                        "y": 911.7994353941931,
+                        "z": 0
+                    },
+                    {
+                        "x": 429.37123718543614,
+                        "y": 911.7994353941931,
+                        "z": 0
+                    },
+                    {
+                        "x": 459.6889401579605,
+                        "y": 901.2988660806323,
+                        "z": 0
+                    },
+                    {
+                        "x": 485.3423811347122,
+                        "y": 885.5480121102912,
+                        "z": 0
+                    },
+                    {
+                        "x": 303.4361632995649,
+                        "y": 844.420782298845,
+                        "z": 0
+                    },
+                    {
+                        "x": 225.0971045243435,
+                        "y": 825.2564270997046,
+                        "z": 0
+                    },
+                    {
+                        "x": 184.19172132479258,
+                        "y": 814.0148538558036,
+                        "z": 0
+                    },
+                    {
+                        "x": 136.68879695067997,
+                        "y": 800.6684101590083,
+                        "z": 0
+                    },
+                    {
+                        "x": 120.36387996547447,
+                        "y": 794.5430780594312,
+                        "z": 0
+                    },
+                    {
+                        "x": 109.86929047498522,
+                        "y": 808.5438371441791,
+                        "z": 0
+                    },
+                    {
+                        "x": 99.37470098449593,
+                        "y": 826.9198334429103,
+                        "z": 0
+                    },
+                    {
+                        "x": 96.12187214549677,
+                        "y": 834.8032455127291,
+                        "z": 0
+                    }
+                ]
+            ],
+            "metadata": {
+                "system": {
+                    "startTime": 0,
+                    "endTime": 0,
+                    "frame": 0,
+                    "endFrame": 0,
+                    "snapshots_": [],
+                    "clientId": "d54ae047-1a70-4b72-b8f4-4706906db6f8",
+                    "automated": false,
+                    "objectId": "8",
+                    "isOpen": false,
+                    "isOnlyLocal": false,
+                    "attributes": {},
+                    "system": false,
+                    "itemLinks": [],
+                    "openAnnotationVersion": "1.64.0-prod.20",
+                    "recipeId": "64a6a4e7f75d91227fe7b7fd",
+                    "coordinateVersion": "v1"
+                },
+                "user": {}
+            },
+            "creator": "andrew.avramencko2014@gmail.com",
+            "createdAt": "2023-07-18T12:09:40.254Z",
+            "updatedBy": "andrew.avramencko2014@gmail.com",
+            "updatedAt": "2023-07-18T12:09:40.254Z",
+            "hash": "2979fe65b91bb9d4f88a9bc9f26efcc9949172a7",
+            "source": "ui"
+        }
+    ],
+    "annotationsCount": 8,
+    "annotated": true
+}
