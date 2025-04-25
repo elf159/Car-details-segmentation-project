@@ -1,0 +1,313 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "00 Krupnie detali. bamper zadniy"
+    },
+    {
+      "id": 1,
+      "name": "01 Krupnie detali. bamper peredniy"
+    },
+    {
+      "id": 2,
+      "name": "02 Krupnie detali. dver zadnyaya levaya"
+    },
+    {
+      "id": 3,
+      "name": "03 Krupnie detali. dver zadnyaya pravaya"
+    },
+    {
+      "id": 4,
+      "name": "04 Krupnie detali. dver perednyaya levaya"
+    },
+    {
+      "id": 5,
+      "name": "05 Krupnie detali. dver perednyaya pravaya"
+    },
+    {
+      "id": 6,
+      "name": "06 Krupnie detali. kapot"
+    },
+    {
+      "id": 7,
+      "name": "07 Krupnie detali. koleso"
+    },
+    {
+      "id": 8,
+      "name": "08 Krupnie detali. krylo zadnee levoe"
+    },
+    {
+      "id": 9,
+      "name": "09 Krupnie detali. krylo zadnee pravoe"
+    },
+    {
+      "id": 10,
+      "name": "10 Krupnie detali. krylo perednee levoe"
+    },
+    {
+      "id": 11,
+      "name": "11 Krupnie detali. krylo perednee pravoe"
+    },
+    {
+      "id": 12,
+      "name": "12 Krupnie detali. krysha"
+    },
+    {
+      "id": 13,
+      "name": "13 Krupnie detali. kryshka bagazhnika"
+    },
+    {
+      "id": 14,
+      "name": "14 Krupnie detali. lobovoe steklo"
+    },
+    {
+      "id": 15,
+      "name": "15 Krupnie detali. steklo kuzova zadnee"
+    },
+    {
+      "id": 16,
+      "name": "16 Melkie detali. antenna"
+    },
+    {
+      "id": 17,
+      "name": "17 Melkie detali. bolty krepleniya diska kolesa"
+    },
+    {
+      "id": 18,
+      "name": "18 Melkie detali. zaglushka buksirovochnogo kryuka perednego bampera"
+    },
+    {
+      "id": 19,
+      "name": "19 Melkie detali. zaglushka dlya diska kolesa"
+    },
+    {
+      "id": 20,
+      "name": "20 Melkie detali. kryshka bokovogo zerkala levaya"
+    },
+    {
+      "id": 21,
+      "name": "21 Melkie detali. kryshka bokovogo zerkala pravaya"
+    },
+    {
+      "id": 22,
+      "name": "22 Melkie detali. levoe shchetka stekloochistitelya lobovogo stekla"
+    },
+    {
+      "id": 23,
+      "name": "23 Melkie detali. levyy povodok stekloochistitelya lobovogo stekla"
+    },
+    {
+      "id": 24,
+      "name": "24 Melkie detali. moldingt stekla zadney dveri levyy naruzhnyy"
+    },
+    {
+      "id": 25,
+      "name": "25 Melkie detali. moldingt stekla zadney dveri pravyy naruzhnyy"
+    },
+    {
+      "id": 26,
+      "name": "26 Melkie detali. moldingt stekla peredney dveri levyy naruzhnyy"
+    },
+    {
+      "id": 27,
+      "name": "27 Melkie detali. moldingt stekla peredney dveri pravyy naruzhnyy"
+    },
+    {
+      "id": 28,
+      "name": "28 Melkie detali. nippel dlya kolesa"
+    },
+    {
+      "id": 29,
+      "name": "29 Melkie detali. povtoritel"
+    },
+    {
+      "id": 30,
+      "name": "30 Melkie detali. pravaya shchetka stekloochistitelya lobovogo stekla"
+    },
+    {
+      "id": 31,
+      "name": "31 Melkie detali. pravyy povodok stekloochistitelya lobovogo stekla"
+    },
+    {
+      "id": 32,
+      "name": "32 Melkie detali. PTF levyy"
+    },
+    {
+      "id": 33,
+      "name": "33 Melkie detali. PTF pravyy"
+    },
+    {
+      "id": 34,
+      "name": "34 Melkie detali. reshetka stekloochistitelya (nakladka zhabo)"
+    },
+    {
+      "id": 35,
+      "name": "35 Melkie detali. ruchka dveri"
+    },
+    {
+      "id": 36,
+      "name": "36 Melkie detali. fonar katafot levyy v zadniy bamper"
+    },
+    {
+      "id": 37,
+      "name": "37 Melkie detali. fonar katafot pravyy v zadniy bamper"
+    },
+    {
+      "id": 38,
+      "name": "38 Melkie detali. shildik marki avto"
+    },
+    {
+      "id": 39,
+      "name": "39 Melkie detali. emblema"
+    },
+    {
+      "id": 40,
+      "name": "40 Srednie detali. bokovoe zerkalo levoye"
+    },
+    {
+      "id": 41,
+      "name": "41 Srednie detali. bokovoe zerkalo pravoye"
+    },
+    {
+      "id": 42,
+      "name": "42 Srednie detali. bryzgovik zadniy levyy"
+    },
+    {
+      "id": 43,
+      "name": "43 Srednie detali. bryzgovik zadniy pravyy"
+    },
+    {
+      "id": 44,
+      "name": "44 Srednie detali. bryzgovik peredniy levyy"
+    },
+    {
+      "id": 45,
+      "name": "45 Srednie detali. bryzgovik peredniy pravyy"
+    },
+    {
+      "id": 46,
+      "name": "46 Srednie detali. disk kolesa"
+    },
+    {
+      "id": 47,
+      "name": "47 Srednie detali. kryshka lyuka benzobaka"
+    },
+    {
+      "id": 48,
+      "name": "48 Srednie detali. moldingt zadnego bampera centralnyy"
+    },
+    {
+      "id": 49,
+      "name": "49 Srednie detali. moldingt zerkala levyy"
+    },
+    {
+      "id": 50,
+      "name": "50 Srednie detali. moldingt zerkala pravyy"
+    },
+    {
+      "id": 51,
+      "name": "51 Srednie detali. nakladka na porog levyy"
+    },
+    {
+      "id": 52,
+      "name": "52 Srednie detali. nakladka na porog pravyy"
+    },
+    {
+      "id": 53,
+      "name": "53 Srednie detali. nakladka tsentralnoy stoyki levaya naruzhnaya"
+    },
+    {
+      "id": 54,
+      "name": "54 Srednie detali. nakladka tsentralnoy stoyki pravaya naruzhnaya"
+    },
+    {
+      "id": 55,
+      "name": "55 Srednie detali. podkrylok zadniy levyy"
+    },
+    {
+      "id": 56,
+      "name": "56 Srednie detali. podkrylok zadniy pravyy"
+    },
+    {
+      "id": 57,
+      "name": "57 Srednie detali. podkrylok peredniy levyy"
+    },
+    {
+      "id": 58,
+      "name": "58 Srednie detali. podkrylok peredniy pravyy"
+    },
+    {
+      "id": 59,
+      "name": "59 Srednie detali. ramka gosnomera"
+    },
+    {
+      "id": 60,
+      "name": "60 Srednie detali. reshetka bampera centralnaya"
+    },
+    {
+      "id": 61,
+      "name": "61 Srednie detali. reshetka perednego bampera pod PTF levaya"
+    },
+    {
+      "id": 62,
+      "name": "62 Srednie detali. reshetka perednego bampera pod PTF pravaya"
+    },
+    {
+      "id": 63,
+      "name": "63 Srednie detali. reshetka radiatora"
+    },
+    {
+      "id": 64,
+      "name": "64 Srednie detali. steklo zadney dveri levoye"
+    },
+    {
+      "id": 65,
+      "name": "65 Srednie detali. steklo zadney dveri levoye (fortochka)"
+    },
+    {
+      "id": 66,
+      "name": "66 Srednie detali. steklo zadney dveri pravoye"
+    },
+    {
+      "id": 67,
+      "name": "67 Srednie detali. steklo zadney dveri pravoye (fortochka)"
+    },
+    {
+      "id": 68,
+      "name": "68 Srednie detali. steklo peredney dveri levoye"
+    },
+    {
+      "id": 69,
+      "name": "69 Srednie detali. steklo peredney dveri pravoye"
+    },
+    {
+      "id": 70,
+      "name": "70 Srednie detali. fara perednyaya levaya"
+    },
+    {
+      "id": 71,
+      "name": "71 Srednie detali. fara perednyaya pravaya"
+    },
+    {
+      "id": 72,
+      "name": "72 Srednie detali. fonar zadniy levyy"
+    },
+    {
+      "id": 73,
+      "name": "73 Srednie detali. fonar zadniy pravyy"
+    },
+    {
+      "id": 74,
+      "name": "74 defect"
+    },
+    {
+      "id": 75,
+      "name": "75 damage"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
