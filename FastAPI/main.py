@@ -1,6 +1,32 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List, Dict, Any
+from minio import Minio
+from minio.error import S3Error
+import io
+
+from processing import classify_brand, run_segmentation
+import pika
+import json
+
+def send_rabbitmq_event(job_id: str, message: str):
+    try:
+        connection = pika.BlockingConnection(pika.ConnectionParameters("localhost"))
+        channel = connection.channel()
+        channel.queue_declare(queue="minioevents", durable=True)
+
+        event = {
+            "job_id": job_id,
+            "error": message
+        }
+        channel.basic_publish(
+            exchange="",
+            routing_key="minioevents",
+            body=json.dumps(event),
+            properties=pika.BasicProperties(delivery_mode=2) 
+        )
+        connection.close()
+    except Exception as e:
+        print(f"RabbitMQ error: {str(e)}")
 
 app = FastAPI()
 
@@ -9,95 +35,64 @@ class ImageProcessRequest(BaseModel):
     job_id: str
     result_name: str
 
-class ResultMetadata(BaseModel):
-    damage_level: str
-    segment_name: str
+minio_client = Minio(
+    "localhost:9000",
+    access_key="minioadmin",
+    secret_key="minioadmin",
+    secure=False
+)
 
-class ResultList(BaseModel):
-    result: List[Dict[str, ResultMetadata]]
-
-@app.post("/api/v1/process_request", response_model=ResultList)
+@app.post("/api/v1/process_request")
 async def process_request(request: ImageProcessRequest):
-    # Заглушка
+    try:
+        image_name = request.download_object_name
+        result_name = request.result_name
+        job_id = request.job_id
+        
+        image_data = get_image_from_minio(image_name)
+        if not image_data:
+            send_rabbitmq_event(job_id, "Image not found in MinIO")
+            raise HTTPException(status_code=404, detail="Image not found in MinIO")
 
-    if request.job_id == "error_job":
-        raise HTTPException(status_code=500, detail="Ошибка обработки изображения")
+        brand = classify_brand(image_data)
+        if brand == "none":
+            send_rabbitmq_event(job_id, "Car is not found or brand is not recognized")
+            return {"message": "Car is not found", "job_id": job_id}
 
-    if request.job_id == "no_damage":
-        results = {
-            "result": [
-                {
-                    "front_bumper": {
-                        "damage_level": "NONE",
-                        "segment_name": "front_bumper"
-                    }
-                },
-                {
-                    "hood": {
-                        "damage_level": "NONE",
-                        "segment_name": "hood"
-                    }
-                },
-                {
-                    "left_door": {
-                        "damage_level": "NONE",
-                        "segment_name": "left_door"
-                    }
-                },
-            ]
+        result_png = run_segmentation(image_data, brand)
+        upload_image_to_minio(result_name, result_png)
+
+        return {
+            "message": f"Processed brand: {brand}, saved as {result_name}",
+            "job_id": job_id
         }
-        return results
 
-    if request.job_id == "no_segments":
-        results = {
-            "result": [
-                {
-                    "0": {
-                        "damage_level": "NONE",
-                        "segment_name": "empty"
-                    }
-                }
-            ]
-        }
-        return results
+    except Exception as e:
+        send_rabbitmq_event(request.job_id, f"Processing error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Processing error: {str(e)}")
 
-    # Заглушка 
-    results = {
-        "result": [
-            {
-                "front_bumper": {
-                    "damage_level": "DENT",
-                    "segment_name": "front_bumper"
-                }
-            },
-            {
-                "hood": {
-                    "damage_level": "SCRATCH",
-                    "segment_name": "hood"
-                }
-            },
-            {
-                "left_door": {
-                    "damage_level": "BROKEN",
-                    "segment_name": "left_door"
-                }
-            },
-            {
-                "right_door": {
-                    "damage_level": "TOTAL_LOSS",
-                    "segment_name": "right_door"
-                }
-            },
-            {
-                "windshield": {
-                    "damage_level": "NONE",
-                    "segment_name": "windshield"
-                }
-            },
-        ]
-    }
-    return results
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8888)
+def get_image_from_minio(image_name: str) -> bytes:
+    try:
+        response = minio_client.get_object("cars", image_name)
+        return response.read()
+    except S3Error as e:
+        print(f"MinIO error: {str(e)}")
+        return None
+
+def upload_image_to_minio(file_name: str, image_data: bytes):
+    try:
+        minio_client.put_object(
+            "cars",
+            file_name,
+            io.BytesIO(image_data),
+            len(image_data),
+            content_type="image/png"
+        )
+        print(f"Uploaded {file_name} to MinIO")
+    except S3Error as e:
+        print(f"Upload error: {str(e)}")
+
+# C:\useful\copy\FastAPI
+#.\venv\Scripts\activate
+# uvicorn main:app --reload
